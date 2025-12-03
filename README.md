@@ -87,7 +87,3 @@ The landing page features 10 main categories:
 ## 📄 License
 
 This project is for educational purposes only. DBA® is a registered trademark of eBay Classifieds Group.
-
----
-
-⭐ Star this repo if you found it helpful!
