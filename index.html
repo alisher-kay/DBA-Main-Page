@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DBA - Denmark's largest marketplace. Buy and sell cars, furniture, electronics and much more.">
+    <meta name="keywords" content="DBA, marketplace, buy, sell, Denmark, ads, second-hand">
+    <link rel="canonical" href="https://www.dba.dk/">
+    <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+    <title>DBA - Denmark's Largest Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container container">
+            <a class="header__link" href="/">DBA</a>
+            <div class="header__button">
+                <a class="header__login" href="/login">Log in</a>
+                <a href="#menu" class="menu__icon icon-menu" aria-label="Open menu"><span></span></a>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+    <section class="search">
+        <div class="search__container container">
+            <div class="search__row">
+                <img class="search__logo" src="img/logo.svg" alt="DBA Logo">
+                <img src="img/bg1.svg" alt="Decorative illustration">
+            </div>
+            <h1 class="search__intro">Welcome to DBA - Find Everything You Need</h1>
+            <p class="search__subtitle">Search, browse categories, or create your first ad</p>
+            <form class="search__bar container" action="/search" method="GET" role="search">
+                <label for="search-input" class="visually-hidden">Search</label>
+                <input class="search__input" id="search-input" type="search" name="q" placeholder="Find what you need..." aria-label="Search for items">
+            </form>
+            </form>
+
+            <!-- Search Cards  -->
+            <div class="search__cards container ">
+                <div class="search__cards-header">
+                    <h3 class="search__cards-title">Categories</h3>
+                    <a class="search__cards-button" href="#">Create ad</a>
+                </div>
+
+                <!-- Search Cards items first row -->
+                <div class="search__cards-content">
+                   <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://media.istockphoto.com/photos/cars-on-a-parking-picture-id1285180944?k=20&m=1285180944&s=612x612&w=0&h=1Xirrd4-7i2xFpfnLkXbgvJeodWzPo1c7D-8KB_-bns=" alt="Transport"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Transport</a>
+                        </div>
+                    </div>
+
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://media.istockphoto.com/photos/sports-equipment-on-floor-picture-id1136317339?k=20&m=1136317339&s=612x612&w=0&h=MSqnGrfVcmNhTpwuqSXFINWQOdMWo9YsQRIJ54teXQY=" alt="Sport"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Sport</a>
+                        </div>
+                    </div>
+                 
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://media.istockphoto.com/photos/home-interior-background-with-green-sofa-table-and-decor-in-living-picture-id1311423416?b=1&k=20&m=1311423416&s=170667a&w=0&h=u7G_1X0OumJBukkWh-jzC6t6XBbWsEpsOLf129LpJXY=" alt="Home"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Home</a>
+                        </div>
+                    </div>
+                    
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://media.istockphoto.com/photos/handbags-and-clothes-in-a-fashion-store-picture-id615736206?b=1&k=20&m=615736206&s=170667a&w=0&h=-R5PsDkBm752EuSmecjKZNAlqjoTdG_le5HliKehMsc=" alt="Mode"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Mode</a>
+                        </div>
+                    </div>
+                    
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://media.istockphoto.com/photos/flying-tablet-laptop-and-mobile-phone-showing-online-shop-website-picture-id1157329704?k=20&m=1157329704&s=612x612&w=0&h=FtIYvYPeUcBEsJ8b536eQrx4ilwcgzvhI4zldvii_Ow=" alt="Hi-Tech"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Hi-Tech</a>
+                        </div>
+                    </div>
+
+                    <!-- Second row -->
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://cdn.pixabay.com/photo/2015/09/09/22/07/iron-man-933709__480.jpg" alt="Toys"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Toys</a>
+                        </div>
+                    </div>
+
+
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGNhbXBpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=600" alt="Camping"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Camping</a>
+                        </div>
+                    </div>
+                    
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://media.istockphoto.com/photos/woman-planting-spring-flowers-in-backyard-in-sunlight-picture-id1125091402?k=20&m=1125091402&s=612x612&w=0&h=Muu8EdydevCy_pRfdrZed6CggO-60Y9l8rygKV_YM7I=" alt="Garden"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Garden</a>
+                        </div>
+                    </div>
+                   
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://media.istockphoto.com/photos/british-short-hair-cat-and-golden-retriever-picture-id992637094?k=20&m=992637094&s=612x612&w=0&h=TsroJcfNHlnIuOsoyosl-NQJITGHAnI79ROvHU7lPs8=" alt="Pets"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Pets</a>
+                        </div>
+                    </div>
+                   
+                    <div class="search__cards-item">
+                        <div class="search__cards-img scale">
+                            <a href="#"><img src="https://media.istockphoto.com/photos/waiting-to-be-played-picture-id1168477313?k=20&m=1168477313&s=612x612&w=0&h=aqNukICHNOqXFEaMcXxxEQ1D9eiMdFk7-n36wWEr1UQ=" alt="Hobby"></a>                            
+                        </div>
+                        <div class="search__cards-description">
+                            <a class="search__cards-subtitle" href="#">Hobby</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row container">        
+            <div class="footer__links footer__col footer__inst">
+                <ul class="footer_links-list">
+                    <li class="footer_links-items"><a href="#">Personal data policy</a></li>
+                    <li class="footer_links-items"><a href="#">Terms of use</a></li>
+                    <li class="footer_links-items"><a href="#">Rules</a></li>
+                </ul>
+            </div> 
+
+            <div class="footer__links footer__col">    
+                <ul class="footer_links-list">
+                    <li class="footer_links-items footer_links-items--right"><a href="#">About us</a></li>
+                    <li class="footer_links-items footer_links-items--right"><a href="#">Contact us</a></li>
+                    <li class="footer_links-items footer_links-items--right"><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer__links footer__col footer__col-last">
+                    <div class="footer__social-links links">
+                    <a href="#" aria-label="Pinterest"><img src="https://img.icons8.com/fluency/344/pinterest.png" alt="Pinterest"></a>
+                    <a href="#" aria-label="Instagram"><img src="https://img.icons8.com/plasticine/2x/instagram-new--v2.png" alt="Instagram"></a>
+                    <a href="#" aria-label="X"><img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=000000" alt="X"></a> 
+                    <a href="#" aria-label="Facebook"><img src="https://img.icons8.com/color/2x/facebook.png" alt="Facebook"></a>
+                </div>
+            </div>
+
+
+        </div>    
+
+    </footer>
+
+
+
+</body>
+</html>
+
+
+
